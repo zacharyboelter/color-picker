@@ -54,3 +54,28 @@ body {
     padding-top: 5em;
     box-sizing: border-box;    
 }
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.colors > div {
+    width: 20%;
+}
+
+.color {
+    background: #ccc;
+    height: 20em;
+    width: 100%;
+
+}
+
+.colors h4 {
+    font-size: .9em;
+}
+
