@@ -98,3 +98,6 @@ body {
         width: 100%;
     }
 }
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
